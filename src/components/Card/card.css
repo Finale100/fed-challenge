@@ -1,0 +1,52 @@
+.card {
+    border: .1px lightgrey solid;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, .2);
+    width: 350px;
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+    width: 350px;
+}
+
+.workout-title {
+    display: flex;
+    justify-content: space-between;
+}
+.workout-title img {
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+}
+.workout-title p {
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+}
+
+.workout-info {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.workout-info img {
+    width: 20px;
+    height: 20px;
+}
+
+.workout-info p {
+    margin-left: 3px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+div.transparentbox {
+    opacity: 0.6;
+    margin: 30px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    filter: alpha(opacity=60); /* This is for IE8 and other earlier browsers */
+ }

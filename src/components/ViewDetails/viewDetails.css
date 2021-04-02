@@ -1,0 +1,12 @@
+.view-details {
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 700;
+    color: rgb(68, 162, 194);
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.view-details:hover {
+    cursor: pointer;
+}
